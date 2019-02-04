@@ -1,6 +1,6 @@
 // Code your solutions in this file
 
-// let spy = ['Lisa', 'Kaitlin', 'Jan'];
+ let spy = ['Lisa', 'Kaitlin', 'Jan'];
 
 function printBadges(spy) {
   for (let i = 0; i < spy.length; i++) {
