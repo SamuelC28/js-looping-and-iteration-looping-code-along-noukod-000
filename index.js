@@ -2,7 +2,6 @@
 
 // let spy = ['Lisa', 'Kaitlin', 'Jan'];
 
-
 function printBadges(spy) {
   for (let i = 0; i < spy.length; i++) {
     console.log(`Welcome ${spy[i]}! You are employee #${i+1}.`);
@@ -13,8 +12,8 @@ function printBadges(spy) {
 
 function tailsNeverFails(){
   let tails = 0;
-  while tails (Math.random() >=0.4){
+  while tails (Math.random() >=0.5){
     tails++;
   }
-  return `You got ${Math.random()} tails in a row!`)
+  return `You got ${tails} tails in a row!`
 }
